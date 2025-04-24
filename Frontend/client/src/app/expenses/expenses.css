@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Main Container */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  .navbar {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Content Container */
+  .content-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  /* Table Styles */
+  .weapon-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .weapon-table th,
+  .weapon-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .weapon-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .weapon-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .weapon-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Charts Container */
+  .charts-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .chart {
+    width: 45%;
+    min-width: 300px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .chart h2 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Loading and Error */
+  .loading,
+  .error-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+  }
+  
+  .loading {
+    color: #007bff;
+  }
+  
+  .error-message {
+    color: #f44336;
+  }
+  
+  /* Footer */
+  .footer {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }

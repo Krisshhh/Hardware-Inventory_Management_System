@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-container-5 {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .navbar-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .navbar-logo-5 span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Table Styling */
+  .weapon-table-5 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .weapon-table-5 th,
+  .weapon-table-5 td {
+    padding: 12px 16px;
+    text-align: left;
+  }
+  
+  .weapon-table-5 th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .weapon-table-5 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .weapon-table-5 tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+  }
+  
+  .weapon-table-5 td {
+    border-bottom: 1px solid #ddd;
+    color: #333;
+  }
+  
+  /* Table Headers */
+  .weapon-table-5 th:first-child {
+    border-top-left-radius: 8px;
+  }
+  
+  .weapon-table-5 th:last-child {
+    border-top-right-radius: 8px;
+  }
+  
+  /* Footer Styling */
+  .footer-5 {
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .footer-5 a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .footer-5 a:hover {
+    text-decoration: underline;
+  }
+
+  .charts-container-5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .chart-5 {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .chart-5 h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
